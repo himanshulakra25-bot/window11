@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+}
+.abar{
+    background-color: rgb(248, 239, 224);
+    position: fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    color:black; 
+    font-size: 20px ;
+    width:200px;
+}
+
+.abar a {
+    padding-left:20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+
+}
+.rside{
+    background-color:rgb(248, 239, 224);
+    padding: 20px;
+    position: fixed;
+    right:0;
+    top:0;
+    bottom:0;
+    width:180px;
+}
