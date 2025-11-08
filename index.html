@@ -1,51 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings Apps</title>
-    <link rel="stylesheet" href="shared.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Windows 11 Settings</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-        <h1>APPS</h1>
-        <h3>Installed apps</h3>
-        <p>Uninstall and manage apps on your PC</p>
-    </section>
+  <header class="header">
+    <nav class="sidebar">
+      <h2 class="logo">⚙ Settings</h2>
+    </nav>
+    <main class="content">
+      <h1>Privacy & Security</h1>
+      <p>This page shows your privacy and security settings.</p>
+    </main>
+  </header>
 
-    <section>
-        <h3>Advanced app settings</h3>
-        <p>Choose where to get apps, archive apps</p>
-    </section>
+  <section class="cards">
+    <div class="card">
+      <div class="text">
+        <h2>Windows Security</h2>
+        <p>Keep your device protected from viruses and threats.</p>
+        <button>Open Windows Security</button>
+      </div>
+    </div>
 
-    <section>
-        <h3>Default apps</h3>
-        <p>Defaults for file and link types</p>
-    </section>
+    <div class="card">
+      <div class="text">
+        <h2>Device Encryption</h2>
+        <p>Enable encryption to protect your data.</p>
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
 
-    <section>
-        <h3>Actions</h3>
-        <p>Windows can recommend actions from these apps</p>
-    </section>
+    <div class="card">
+      <div class="text">
+        <h2>Location Access</h2>
+        <p>Control which apps have access to your location.</p>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
 
-    <section>
-        <h3>Offline maps</h3>
-        <p>Downloads, storage location, map updates</p>
-    </section>
-
-    <section>
-        <h3>Apps for websites</h3>
-        <p>Websites that can open in an app instead of a browser</p>
-    </section>
-
-    <section>
-        <h3>Video playback</h3>
-        <p>Video adjustments, HDR streaming, battery options</p>
-    </section>
-
-    <section>
-        <h3>Startup</h3>
-        <p>Manage which apps start when you sign in</p>
-    </section>
+    <div class="card">
+      <div class="text">
+        <h2>Camera & Microphone Access</h2>
+        <p>Control which apps can use your camera and microphone.</p>
+        <button>Manage Permissions</button>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
